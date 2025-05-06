@@ -1,4 +1,4 @@
-#!/bin/bash
+#/bin/bash
 #Écrire un script qui crée un répertoire nommé test_directory.
 
 # Dans un premier temps  nous alons  dire au script comment s'appellera le dossier

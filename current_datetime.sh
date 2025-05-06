@@ -1,4 +1,4 @@
-#!/bin/bash
+#/bin/bash
 #Écrire un script qui affiche la date et l’heure actuelle au format "YYYY-MM-DD HH:MM:SS".
 
 # Affiche la date et l'heure au format  (YYYY-MM-DD HH:MM:SS): ISO 8601 

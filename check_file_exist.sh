@@ -1,4 +1,4 @@
-#!/bin/bash
+#/bin/bash
 
 # Demander le nom du fichier à l'utilisateur
 read -p "Entrez le nom du fichier : " filename

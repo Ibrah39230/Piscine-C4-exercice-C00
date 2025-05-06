@@ -1,4 +1,4 @@
-#!/bin/bash
+#/bin/bash
 #Écrire un script qui affiche le texte "Hello, World!" à l’écran.
 
 #je procede par la declaration d'une variable $Hello qui recoit comme valeure une chaine de charactere "Hello, World!"

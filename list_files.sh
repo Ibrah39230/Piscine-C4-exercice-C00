@@ -1,4 +1,4 @@
-#!/bin/bash
+#/bin/bash
 #Écrire un script pour afficher la liste de tous les fichiers du répertoire courant.
 # Affiche où on se trouve
 echo "Répertoire courant : $(pwd)" 
