@@ -10,7 +10,7 @@
 ## Utilisation
 ```bash
 git clone https://github.com/Ibrah39230/Piscine-C4-exercice-C00.git
-cd Piscine-C4-exercice-C00/scripts
+cd Piscine-C4-exercice-C00
 ./nom_du_script.sh
 
 ```
