@@ -1,9 +1,11 @@
 #/bin/bash
 
-# Demander le nom du fichier à l'utilisateur
-read -p "Entrez le nom du fichier : " filename
+# Affiche le message exact demandé
+echo -n "Entrez le nom du fichier : "
+read filename
 
-# La commande 'read -p' permet de : d'afficher un message (-p pour prompt); Stocke la saisie utilisateur dans la variable 'filename'
+# - 'echo -n' affiche le message sans saut de ligne
+# - 'read' stocke la saisie dans la variable 'filename'
 
 # Vérifier si le fichier existe
 
