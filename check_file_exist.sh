@@ -1,7 +1,6 @@
 #/bin/bash
 # Affiche le message 
-echo -n "Entrez le nom du fichier : "
-read filename
+read -p "Entrez le nom du fichier : " filename
 
 # - 'echo -n' affiche le message sans saut de ligne
 # - 'read' stocke la saisie dans la variable 'filename'
