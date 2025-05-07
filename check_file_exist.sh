@@ -1,6 +1,5 @@
 #/bin/bash
-
-# Affiche le message exact demandé
+# Affiche le message 
 echo -n "Entrez le nom du fichier : "
 read filename
 

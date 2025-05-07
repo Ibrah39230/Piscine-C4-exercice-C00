@@ -8,7 +8,7 @@ nom_dossier="test_directory"
 
 # Ensuite  On crée le dossier avec la commande mkdir
 
-echo "creation du dossier $nom_dossier..." #cette commande affichera tout simplement  : cration du dossier test_directory...
+echo "creation du dossier $nom_dossier" #cette commande affichera tout simplement  : cration du dossier test_directory...
 
 mkdir "$nom_dossier"
 
