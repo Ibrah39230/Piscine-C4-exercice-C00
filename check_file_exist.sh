@@ -1,7 +1,7 @@
 #/bin/bash
 
 # Affiche le message exact demandé
-echo -n "Entrez le nom du fichier:"
+echo -n "Entrez le nom du fichier : "
 read filename
 
 # - 'echo -n' affiche le message sans saut de ligne
