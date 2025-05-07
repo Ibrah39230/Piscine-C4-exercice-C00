@@ -12,7 +12,8 @@ read filename
 # - Si le fichier existe
 # - ET si c'est un fichier régulier (pas un dossier)
 
-if [ -f "$filename" ]; then
+if [ -f "$filename" ]; 
+then
 # Cas où le fichier existe
     echo "Le fichier '$filename' existe."
 else
