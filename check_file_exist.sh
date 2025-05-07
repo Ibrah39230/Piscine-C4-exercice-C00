@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 # Affiche le message 
 echo -n "Entrez le nom du fichier : "
 read filename
@@ -12,8 +12,7 @@ read filename
 # - Si le fichier existe
 # - ET si c'est un fichier régulier (pas un dossier)
 
-if [ -f "$filename" ]; 
-then
+if [ -f "$filename" ]; then
 # Cas où le fichier existe
     echo "Le fichier '$filename' existe."
 else
