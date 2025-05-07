@@ -1,7 +1,7 @@
 #/bin/bash
 
 # Affiche le message exact demandé
-echo -n "Entrez le nom du fichier : "
+echo -n "Entrez le nom du fichier:"
 read filename
 
 # - 'echo -n' affiche le message sans saut de ligne
@@ -15,9 +15,9 @@ read filename
 
 if [ -f "$filename" ]; then
 # Cas où le fichier existe
-    echo "Le fichier '$filename' existe"
+    echo "Le fichier '$filename' existe."
 else
 # Cas où le fichier n'existe pas
-    echo "Le fichier '$filename' n'existe pas"
+    echo "Le fichier '$filename' n'existe pas."
 fi
 #fin de la boucle 
