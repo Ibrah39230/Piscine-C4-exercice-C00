@@ -2,7 +2,7 @@
 # check_file_exist.sh - Vérifie si un fichier existe
 
 # Affiche l'invite sans saut de ligne
-echo -n "Entrez le nom du fichier : "
+echo "Entrez le nom du fichier:"
 
 # Lit l'entrée utilisateur
 read filename
